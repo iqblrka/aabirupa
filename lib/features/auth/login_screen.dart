@@ -77,7 +77,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
   // 2. Logic Login Google
   
-bool _isPasswordVisible = false; // Fix undefined _isPasswordVisible
+bool _isPasswordVisible = true; // Fix undefined _isPasswordVisible
 
 // 2. Update _loginWithGoogle jadi seperti ini
 Future<void> _loginWithGoogle() async {
