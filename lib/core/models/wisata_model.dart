@@ -18,7 +18,7 @@ class WisataModel {
     required this.tiketAnak,
     required this.biayaAsuransi,
     required this.fasilitas,
-    required this.deskripsi,
+    required this.deskripsi, //deskripsi
     required this.gambar,
     required this.isLocalImage, // <--- Wajib diisi
   });
