@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Tes Saya</title>
+    <style>
+        /* CSS sederhana untuk mempercantik tampilan */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Selamat Datang! 👋</h1>
+        <p>Ini adalah contoh file <strong>index.html</strong> yang sudah dilengkapi dengan gaya (CSS) dan fungsi klik.</p>
+        
+        <hr>
+        
+        <h3>Daftar Fitur:</h3>
+        <ul style="text-align: left; display: inline-block;">
+            <li>Responsif (Bisa dibuka di HP)</li>
+            <li>Desain bersih</li>
+            <li>Interaksi JavaScript</li>
+        </ul>
+
+        <br><br>
+        <button onclick="sapaUser()">Klik Saya!</button>
+        <p id="pesan"></p>
+    </div>
+
+    <script>
+        // JavaScript sederhana untuk interaksi
+        function sapaUser() {
+            document.getElementById("pesan").innerHTML = "<b>Hebat!</b> Kode HTML Anda berjalan dengan lancar.";
+            document.getElementById("pesan").style.color = "green";
+        }
+    </script>
+
+</body>
+</html>
