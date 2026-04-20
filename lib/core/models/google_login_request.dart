@@ -5,7 +5,7 @@ class GoogleLoginRequest {
 
   GoogleLoginRequest({
     required this.namaCustomer,
-    required this.emailCustomer,
+    required this.emailCustomer,//Tes
     this.foto,
   });
 
